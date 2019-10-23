@@ -1,4 +1,4 @@
-package com.kk.designmode.simpleFactoryMode;
+package com.kk.pattern.simpleFactory;
 
 /**
  * @author kian

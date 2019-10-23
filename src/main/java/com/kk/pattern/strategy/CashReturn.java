@@ -1,4 +1,4 @@
-package com.kk.designmode.strategyPattern;
+package com.kk.pattern.strategy;
 
 /**
  * @author kian
