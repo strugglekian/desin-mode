@@ -3,6 +3,8 @@ package com.kk.pattern.decorator;
 /**
  * @author kian
  * @date 2019/10/22
+ * 装饰模式有点：把类中的装饰功能从类中搬移去除，这样可以简化原有的类
+ *
  */
 public class DecoratorMain {
 
