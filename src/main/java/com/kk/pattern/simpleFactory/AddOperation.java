@@ -7,7 +7,7 @@ package com.kk.pattern.simpleFactory;
 public class AddOperation extends Operation {
 
     @Override
-    double getResult(double a, double b) {
+    public double getResult(double a, double b) {
         return a + b;
     }
 
