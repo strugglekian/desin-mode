@@ -5,10 +5,10 @@ package com.kk.pattern.decorator;
  * @date 2019/10/22
  * 抽象装饰类
  */
-public class FineryDecorator extends Person {
-    protected Person person;
+public abstract class FineryDecorator extends PersonComponent {
+    private PersonComponent person;
 
-    public void decorator(Person person) {
+    void decorator(PersonComponent person) {
         this.person = person;
     }
 

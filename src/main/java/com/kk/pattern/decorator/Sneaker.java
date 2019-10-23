@@ -5,7 +5,7 @@ package com.kk.pattern.decorator;
  * @date 2019/10/23
  * 装饰类三
  */
-public class Sneaker extends FineryDecorator{
+public class Sneaker extends FineryDecorator {
     @Override
     public void show() {
         System.out.println("运动鞋");

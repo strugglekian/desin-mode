@@ -7,7 +7,7 @@ package com.kk.pattern.decorator;
 public class DecoratorMain {
 
     public static void main(String[] args) {
-        Person person = new PersonCai("小菜");
+        PersonComponent person = new PersonComponentCai("小菜");
         System.out.println("装扮一：");
         TShirt tShirt = new TShirt();
         tShirt.decorator(person);

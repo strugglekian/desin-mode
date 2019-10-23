@@ -5,13 +5,13 @@ package com.kk.pattern.decorator;
  * @date 2019/10/23
  * 定义一个具体的对象
  */
-public class PersonCai extends Person {
+public class PersonComponentCai extends PersonComponent {
     private String name;
 
-    public PersonCai() {
+    public PersonComponentCai() {
     }
 
-    PersonCai(String name) {
+    PersonComponentCai(String name) {
         this.name = name;
     }
 
