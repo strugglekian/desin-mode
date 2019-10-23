@@ -8,7 +8,7 @@ package com.kk.pattern.decorator;
 public abstract class FineryDecorator extends PersonComponent {
     private PersonComponent person;
 
-    void decorator(PersonComponent person) {
+    protected void decorator(PersonComponent person) {
         this.person = person;
     }
 
