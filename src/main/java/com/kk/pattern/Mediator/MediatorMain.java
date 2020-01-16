@@ -6,6 +6,14 @@ package com.kk.pattern.Mediator;
  */
 public class MediatorMain {
     public static void main(String[] args) {
+        UNSecurity unSecurity = new UNSecurity();
+        USA usa = new USA(unSecurity);
+        Iraq iraq = new Iraq(unSecurity);
+
+        usa.declare("我要开打了");
+        iraq.declare("来吧");
+
+
 
     }
 }
